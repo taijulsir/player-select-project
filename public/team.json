@@ -1,0 +1,86 @@
+
+[
+      {
+        "id": 1,
+        "name": "Shakib Al Hasan",
+        "image": "https://i.ibb.co/jz19bn0/images.jpg",
+        "title": "Batsman",
+        "age" : 30,
+        "salary": 35000,
+        "designation": "Captain"
+      },
+      {
+        "id": 2,
+        "name": "Mushfiqur Rahim",
+        "image": "https://i.ibb.co/LtCVdjk/download-3.jpg",
+        "title": "Bowler",
+        "age" : 28,
+        "salary": 30000,
+        "designation": "Vice Captain"
+      },
+      {
+        "id": 3,
+        "name": "Tamim Iqbal",
+        "image": "https://i.ibb.co/mysLGvj/download-4.jpg",
+        "title": "All-Rounder",
+        "age" : 27,
+        "salary": 35000,
+        "designation": "Player"
+      },
+      {
+        "id": 4,
+        "name": "Mashrafi Mortoza",
+        "image": "https://i.ibb.co/Pw4tT5c/mashrafe-mortaza.webp",
+        "title": "Batsman",
+        "age" : 25,
+        "salary": 30000,
+        "designation": "Player"
+      },
+      {
+        "id": 5,
+        "name": "Mahmudullah Riad",
+        "image": "https://i.ibb.co/MC9Cg68/ibu-otes-400x400.jpg",
+        "title": "Bowler",
+        "age" : 30,
+        "salary": 25000,
+        "designation": "Player"
+      },
+      {
+        "id": 6,
+        "name": "Taijul Islam",
+        "image": "https://i.ibb.co/3MY5785/download-5.jpg",
+        "title": "All-Rounder",
+        "age" : 32,
+        "salary": 20000,
+        "designation": "Player"
+      },
+      {
+        "id": 7,
+        "name": "Liton Das",
+        "image": "https://i.ibb.co/r5rnw9b/download-6.jpg",
+        "title": "Batsman",
+        "age" : 35,
+        "salary": 25000,
+        "designation": "Player"
+      },
+      {
+        "id": 8,
+        "name": "Mostafizur Rahman",
+        "image": "https://i.ibb.co/9Zrd4p5/download-7.jpg",
+        "title": "Bowler",
+        "age" : 32,
+        "salary": 15000,
+        "designation": "Player"
+      },
+      {
+        "id": 9,
+        "name": "Mehedy Miraz",
+        "image": "https://i.ibb.co/VqHCf2Z/download-8.jpg",
+        "title": "All-Rounder",
+        "age" : 30,
+        "salary": 10000,
+        "designation": "Player"
+      } 
+    ]
+  
+  
