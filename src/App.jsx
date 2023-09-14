@@ -7,13 +7,25 @@ import Soldplayer from './Components/Sold Player/Soldplayer'
 function App() {
  
   const [soldplayer,setSoldPlayer] = useState([]);
+  const [totalCost, setTotalCost] = useState([]);
+  const [remaining, setTotalRemaining] = useState([]);
 
   const handleSelect = player =>{
     const isExist = soldplayer.find((item)=> item.id == player.id);
+
+    let count = player.salary;
     if(isExist){
        alert('already booked this');
     }
     else{
+
+      soldplayer.forEach(item => {
+        count = count + item.salary;
+      });
+      const totalRemaining = 150000 -count;
+     
+      setTotalCost(count)
+      setTotalRemaining(totalRemaining)
        setSoldPlayer([...soldplayer,player])
     }
     
@@ -24,7 +36,11 @@ function App() {
       <Header></Header>
       <div className='md:flex mx-10 mt-10 bg-amber-300'>
         <Allplayer handleSelect ={handleSelect}></Allplayer>
-        <Soldplayer soldplayer={soldplayer}></Soldplayer>
+        <Soldplayer soldplayer={soldplayer}
+        totalCost= {totalCost}
+        remaining = {remaining}
+        
+        ></Soldplayer>
       </div>
     </>
   )
