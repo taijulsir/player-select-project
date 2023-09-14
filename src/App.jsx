@@ -14,6 +14,7 @@ function App() {
     const isExist = soldplayer.find((item)=> item.id == player.id);
 
     let count = player.salary;
+    
     if(isExist){
        alert('already booked this');
     }
@@ -22,11 +23,19 @@ function App() {
       soldplayer.forEach(item => {
         count = count + item.salary;
       });
+
       const totalRemaining = 150000 -count;
-     
-      setTotalCost(count)
+
+      if(count > 150000){
+      return  alert("You are goribs,Can't Add more")
+      }
+      else{
+        setTotalCost(count)
       setTotalRemaining(totalRemaining)
        setSoldPlayer([...soldplayer,player])
+      }
+     
+      
     }
     
   }

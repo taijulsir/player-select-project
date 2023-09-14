@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Player = ({player,handleSelect}) => {
     const {image,name,salary,title,age} = player;
     return (
